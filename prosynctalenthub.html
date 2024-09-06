@@ -1,0 +1,189 @@
+/prosynctalenthub
+/css
+style.css
+/images
+logo.png (logo futuro)
+index.html
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ProSync Talent Hub - Recrutamento e Seleção">
+    <title>ProSync Talent Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ProSync Talent Hub Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#jobs">Vagas</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao ProSync Talent Hub</h1>
+            <p>Conectamos talentos e oportunidades</p>
+            <a href="#jobs" class="btn">Ver Vagas</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos soluções personalizadas para recrutamento e seleção.</p>
+            <!-- Detalhes dos serviços -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos especialistas em conectar empresas aos melhores profissionais do mercado.</p>
+            <!-- Mais detalhes sobre a empresa -->
+        </div>
+    </section>
+
+    <section id="jobs">
+        <div class="container">
+            <h2>Vagas em Aberto</h2>
+            <p>Explore as oportunidades disponíveis e encontre a que melhor se encaixa no seu perfil.</p>
+            <!-- Espaço para divulgação de vagas -->
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <!-- Espaço para depoimentos dos clientes -->
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <form>
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+        <p>&copy; 2024 ProSync Talent Hub. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #1a1a1a;
+color: #f1f1f1;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+}
+
+header {
+background-color: #333;
+padding: 20px 0;
+}
+
+.logo img {
+width: 150px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+color: #f1f1f1;
+text-decoration: none;
+padding: 10px 20px;
+}
+
+.hero {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #444;
+}
+
+.hero h1 {
+font-size: 48px;
+}
+
+.hero p {
+font-size: 20px;
+margin: 20px 0;
+}
+
+.btn {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+section {
+padding: 60px 0;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+footer {
+background-color: #333;
+padding: 40px 0;
+text-align: center;
+}
+
+footer form input, footer form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+background-color: #444;
+border: none;
+color: #fff;
+}
+
+footer form button {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+}
